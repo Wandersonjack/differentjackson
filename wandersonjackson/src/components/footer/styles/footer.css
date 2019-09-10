@@ -1,0 +1,12 @@
+.footer {
+    background-color: #324142;
+    height: 721px;
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column
+}
+
+.footer_content {
+    display: block;    margin: 0 auto
+}
