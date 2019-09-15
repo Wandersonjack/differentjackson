@@ -1,23 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Montserrat&display=swap');
+
 .hero_content {
     width: 100%;
     height: 852px;
-    background-color: #edf0ea
+    background-color: #edf0ea;
+    padding-top:128px;
 }
 
 .container {
     display: block;
     margin: 0 auto;
     max-width: 802px;
-    width: 100%
+    width: 100%;
 }
 
 .item-hero {
     margin-top: 128px;
-    margin-bottom: 51px
+    margin-bottom: 51px;
 }
 
 .play {
     display: block;
-    margin: 41px auto 0
+    margin: 41px auto 0;
 }
 
