@@ -12,6 +12,11 @@ export default class Navbar extends Component {
                        XO
                     </a>
                 </div>
+                <div className="hamburguer">
+                  <div className="line"></div>
+                  <div className="line"></div>
+                  <div className="line"></div>
+                </div>
                 <nav className="menu-nav">
                     <ul>
                         <li> <a href="#" className="active">Home</a></li>
