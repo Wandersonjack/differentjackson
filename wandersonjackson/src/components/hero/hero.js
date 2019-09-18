@@ -1,9 +1,12 @@
 import React, { Component } from "react"
 import './styles/hero.css'
+import Navbar from "../navbar/navbar"
 export default class Hero extends Component {
   render() {
     return (
-      <div className="hero_content">
+      <div>
+        <Navbar />
+        <div className="hero_content">
         <div className="container">
           <div>
             <h1 className="display1 text-center darkGrey item-hero">
@@ -19,6 +22,7 @@ export default class Hero extends Component {
             className="play"
           />
         </div>
+      </div>
       </div>
     )
   }
