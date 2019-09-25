@@ -34,7 +34,7 @@ export class Heading1 extends Component {
 export class Heading2 extends Component {
   render(){
       return(
-          <h2 className="heading2">{this.props.text}</h2>
+          <h2 className={this.props.children}>{this.props.text}</h2>
       )
   }
 }
