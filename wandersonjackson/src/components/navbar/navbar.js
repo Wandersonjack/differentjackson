@@ -3,6 +3,9 @@ import './styles/navbar.css'
 import logoup from '../../images/logoup.png'
 
 export default class Navbar extends Component {
+  openMenu(){
+   alert('this fucking is working');
+  }
   render() {
     return (
       <div class="navbar">
@@ -13,7 +16,7 @@ export default class Navbar extends Component {
                        <img  src={logoup} />
                     </a>
                 </div>
-                <div className="hamburguer">
+                <div className="hamburguer" onClick={this.openMenu}>
                   <div className="line"></div>
                   <div className="line"></div>
                   <div className="line"></div>

@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@storybook/cli": "^5.1.11",
+    "@storybook/cli": "^5.2.1",
     "gatsby": "^2.15.11",
     "gatsby-image": "^2.2.17",
     "gatsby-plugin-manifest": "^2.2.15",
@@ -21,10 +21,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
-    "@storybook/addon-actions": "^5.1.11",
-    "@storybook/addon-links": "^5.1.11",
-    "@storybook/addons": "^5.1.11",
-    "@storybook/react": "^5.1.11",
+    "@storybook/addon-actions": "^5.2.1",
+    "@storybook/addon-links": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/react": "^5.2.1",
     "babel-loader": "^8.0.6",
     "prettier": "^1.18.2"
   },

@@ -23,3 +23,10 @@
     margin: 41px auto 0;
 }
 
+@media screen and (max-width:768px){
+    .container{
+        max-width: 361px;
+        width: 100%;
+    }
+}
+
