@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './styles/navbar.css'
+import logoup from '../../images/logoup.png'
 
 export default class Navbar extends Component {
   render() {
@@ -7,9 +8,9 @@ export default class Navbar extends Component {
       <div class="navbar">
         <header>
             <div className="menu">
-                <div>
+                <div className="logo">
                     <a href="#">
-                       XO
+                       <img  src={logoup} />
                     </a>
                 </div>
                 <div className="hamburguer">

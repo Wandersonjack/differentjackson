@@ -20,6 +20,11 @@ a{
     background-color:#EDF0EA;
     height: 100px;
 }
+.logo img{
+    width: 40px;
+    height: 25px;
+    margin-left: 128px;
+}
 header{
     max-width: 1140px;
     width: 100%;
