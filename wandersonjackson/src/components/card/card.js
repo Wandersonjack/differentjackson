@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+import '../card/styles/card.css'
+import Button from "../button/button"
 
 export default class Card extends Component {
   render() {
@@ -6,20 +8,20 @@ export default class Card extends Component {
       <div className="cardbase_verse darkGrey">
         <div className="app_content">
           <div className="content_case">
-            <h2 className="display2">App name</h2>
-            <div className="border_bot"></div>
+            <h2 className="display2">{this.props.apptitle}</h2>
+
+            <div className={this.props.border}></div>
             <h4 className="heading4">
-              App description in just few lines and then you gonna add button
-              bellow this description.
+              {this.props.apptext}
             </h4>
             <div>
-              <button className="app_btn top-32">
-                View case<span className="span_icon"></span>
-              </button>
+              <Button text="View work" children={this.props.button}/>
             </div>
           </div>
         </div>
-        <div className="app_img laranja"> _</div>
+        <div className={this.props.imgncolor}> 
+        
+        </div>
       </div>
     )
   }

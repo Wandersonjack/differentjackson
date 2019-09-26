@@ -29,12 +29,26 @@
     width: 100%
 }
 
-.border_bot {
+.border-blue {
+    border-bottom: 8px solid  #75B6FF;
+    max-width: 30%;
+    margin-top: 8px;
+    margin-bottom: 32px
+}
+ 
+.border-green{
     border-bottom: 8px solid #34bc8d;
     max-width: 30%;
     margin-top: 8px;
     margin-bottom: 32px
 }
+.border-orange {
+    border-bottom: 8px solid #FDBA69;
+    max-width: 30%;
+    margin-top: 8px;
+    margin-bottom: 32px
+}
+ 
 
 .gap-top {
     margin-top: 32px
