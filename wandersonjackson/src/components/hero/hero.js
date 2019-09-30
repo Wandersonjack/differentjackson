@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import "./styles/hero.css"
 import Navbar from "../navbar/navbar"
-import Footer from '../footer/footer'
+
 export default class Hero extends Component {
   render() {
     return (
