@@ -1,7 +1,9 @@
 
 .cardbase {
-    max-width: 1140px
+    max-width: 1140px;
 }
+
+
 
 .cardbase,
 .cardbase_verse {
@@ -53,7 +55,12 @@
 .gap-top {
     margin-top: 32px
 }
-
+.gap-bottom{
+    margin-bottom:32px;
+}
+.cinza {
+    background-color:#324142;
+}
 .verde {
     background-color: #34bc8d
 }

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import CardVerse from "../components/card/cardverse"
 import Card from "../components/card/card"
+import About from "../components/about/about"
 import { Display2 } from "../components/typography/typography"
 
 export default class Work extends Component {
@@ -18,17 +19,29 @@ export default class Work extends Component {
           />
           <CardVerse
             imgncolor="app_img laranja"
-            apptitle="BitOfProperty"
+            apptitle="Feelite"
             border="border-orange"
-            apptext="Is an international real estate invesment company, that enables users to invest starting with a little as €50."
+            apptext="is a meditation app that helps you to improve concentration, relax and sleep using science to improve the little things that make your daily life better."
             button="btn-base color-orange"
           />
           <Card
             imgncolor="app_img azul"
-            apptitle="BitOfProperty"
+            apptitle="Adopet"
             border="border-blue"
-            apptext="Is an international real estate invesment company, that enables users to invest starting with a little as €50."
+            apptext="Is a platform that enables you to adopt pet of your wish, to search and find your loved pet."
             button="btn-base color-blue"
+          />
+        </section>
+        <section className="container gap-bottom">
+          <Display2 text="About me" children="display2" />
+          <About
+            imgncolor="verde about_img"
+            myname="Wanderson Jackson"
+            border="border-green"
+            aboutme="I'm Wanderson Jackson, Product Designer with strong focus on user-centered design, to validate and build digital products that users want, with teams of engineers, executives, and marketing teams, to ensure user needs are aligned with business goals."
+            freetime="On free time I enjoy dancing, diving and hiking.
+            Also love to inspire people creating content for my Youtube channel."
+            button="btn-base verde"
           />
         </section>
       </div>

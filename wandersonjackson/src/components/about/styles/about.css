@@ -1,3 +1,89 @@
-.about-me{
-    margin-top:-108px;
+.me-img {
+    height: 870px;
+    width: 570px;
+}
+
+.about-me {
+    margin-top: -108px;
+}
+
+
+.aboutbase {
+    max-width: 1140px;
+}
+
+
+
+.cardbase,
+.cardbase_verse {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%
+}
+
+.about_content {
+    height: 870px;
+    width: 100%;
+    background-color: #edf0ea
+}
+
+.content_case {
+    height: 870px;
+    width: 400px;
+    margin-left: 32px;
+    margin-top: 100px
+}
+
+.about_img {
+    height: 870px;
+    width: 100%
+}
+
+.cinza {
+    background-color: #324142;
+}
+
+.verde {
+    background-color: #34bc8d
+}
+
+@media screen and (max-width:768px) {
+    .cardbase {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 607px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .me-img {
+        height: 435px;
+        width: 100%;
+    }
+    
+
+    .about_img {
+        height: 293px;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .app_content {
+        height: 648px;
+        background-color: transparent
+    }
+
+    .content_case {
+        width: 80%;
+        margin-top: 32px
+    }
+
+    .cardbase_verse {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 607px;
+        margin-bottom: 16px
+    }
 }

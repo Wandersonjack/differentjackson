@@ -3,17 +3,20 @@ import Button from "../button/button"
 import { Heading2, Heading4 } from "../typography/typography"
 import "../card/styles/card.css"
 import "../about/styles/about.css"
+import me from '../../images/me.jpg'
 
 export default class About extends Component {
   render() {
     return (
-      <div className="cardbase">
-        <div className={this.props.imgncolor}></div>
-        <div className="app_content">
+      <div className="cardbase gap-top">
+        <div className={this.props.imgncolor}>
+          <img src={me} className="me-img"/>
+        </div>
+        <div className="about_content">
           <div className="content_case">
-            <Heading2 children="display2 about-me" text={this.props.myname} />
-            <div className={this.props.border}></div>
+            <Heading2 children="display2" text={this.props.myname} />
             <Heading4 children="heading4" text={this.props.aboutme} />
+            <Heading4 children="heading4" text={this.props.freetime} />
             <div>
               <Button text="Download cv" children={this.props.button} />
             </div>
