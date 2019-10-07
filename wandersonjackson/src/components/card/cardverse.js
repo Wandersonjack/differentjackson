@@ -14,7 +14,10 @@ export default class CardVerse extends Component {
             <div className={this.props.border}></div>
             <Heading4 children="heading4" text={this.props.apptext} />
             <div>
-              <Button text="View work" children={this.props.button} />
+            <a href={this.props.link} target="popup">
+                {" "}
+                <Button text={this.props.text}children={this.props.button} />
+              </a>
             </div>
           </div>
         </div>

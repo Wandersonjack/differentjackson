@@ -14,7 +14,9 @@ export default class Work extends Component {
             imgncolor="app_img verde"
             apptitle="BitOfProperty"
             border="border-green"
+            link="https://www.bitofproperty.com"
             apptext="Is an international real estate invesment company, that enables users to invest starting with a little as €50."
+            text="View work"
             button="btn-base color-green"
           />
           <CardVerse
@@ -22,6 +24,7 @@ export default class Work extends Component {
             apptitle="Feelite"
             border="border-orange"
             apptext="is a meditation app that helps you to improve concentration, relax and sleep using science to improve the little things that make your daily life better."
+            text="Coming soon..."
             button="btn-base color-orange"
           />
           <Card
@@ -29,6 +32,7 @@ export default class Work extends Component {
             apptitle="Adopet"
             border="border-blue"
             apptext="Is a platform that enables you to adopt pet of your wish, to search and find your loved pet."
+            text="Coming soon..."
             button="btn-base color-blue"
           />
         </section>
