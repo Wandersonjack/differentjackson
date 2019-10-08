@@ -1,6 +1,7 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import About from '../about'
+import me from '../../images/me.JPG'
 
 
 const stories = storiesOf("V1|Components/About", module)
