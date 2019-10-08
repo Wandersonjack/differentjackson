@@ -3,6 +3,7 @@ import CardVerse from "../components/card/cardverse"
 import Card from "../components/card/card"
 import About from "../components/about/about"
 import { Display2 } from "../components/typography/typography"
+import '../pages/styles/page.css'
 
 export default class Work extends Component {
   render() {
@@ -36,10 +37,9 @@ export default class Work extends Component {
             button="btn-base color-blue"
           />
         </section>
-        <section className="container gap-bottom">
+        <section className="container gap-top">
           <Display2 text="About me" children="display2" />
           <About
-            imgncolor="verde about_img"
             myname="Wanderson Jackson"
             border="border-green"
             aboutme="I'm Wanderson Jackson, Product Designer with strong focus on user-centered design, to validate and build digital products that users want, with teams of engineers, executives, and marketing teams, to ensure user needs are aligned with business goals."

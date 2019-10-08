@@ -8,7 +8,7 @@ import jackson from '../../images/jackson.jpg'
 export default class About extends Component {
   render() {
     return (
-      <div className="cardbase gap-top">
+      <div className="cardbase-about gap-top">
         <div className={this.props.imgncolor}>
           <img src={jackson} className="me-img"/>
         </div>

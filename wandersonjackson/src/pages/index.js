@@ -5,9 +5,7 @@ import React, { Component } from "react"
 
 import { Display2 } from "../components/typography/typography"
 import "../pages/styles/page.css"
-import Card from "../components/card/card"
 import Work from "./worksection"
-import CardVerse from "../components/card/cardverse"
 
 export default class IndexPage extends Component {
   render() {
@@ -15,7 +13,7 @@ export default class IndexPage extends Component {
       <div>
         <Hero />
         <Work />
-        <Footer />
+        <Footer  />
         <SEO title="Jackson" />
       </div>
     )

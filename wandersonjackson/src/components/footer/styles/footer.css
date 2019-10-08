@@ -37,12 +37,20 @@
 
 @media screen and  (max-width:768px){
     .content{
-        display: block;
-        margin:0 auto;
         max-width: 290px;
+    }
+    .footer-title{
+        color:white;
+        text-align:center;
+        margin-top:338px;
     }
     .footer-container{
         width: 100%;
+    }
+    .footer a img{
+        width: 44px;
+        height: 44px;
+        margin-top: 128px;
     }
     
 }
